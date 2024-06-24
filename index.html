@@ -1,0 +1,246 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="C:\Users\Haziq\OneDrive\Desktop\IMD318\Home\index.html">Biodata</a></li>
+                <li><a href="C:\Users\Haziq\OneDrive\Desktop\IMD318\Home\working_experience.html">Working Experience</a></li>
+                <li><a href="C:\Users\Haziq\OneDrive\Desktop\IMD318\Home\passion.html">Passion</a></li>
+                <li><a href="C:\Users\Haziq\OneDrive\Desktop\IMD318\Home\achivement_and_skills.html">Achievement & Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="biodata">
+            <h1>About Me</h1>
+            <div class="content">
+                <div class="text">
+                    <p>The following is a biographical sketch of me; my name is Muhammad Haziq bin Mohd Hazri. Today, I am 21 years old. I am a resident of Shah Alam. Currently, I am pursuing my diploma in Information Management at UITM Rembau, where I am working towards my education. 
+                    </p>
+                </div>
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="C:\Users\Haziq\OneDrive\Desktop\IMD318\Image\WhatsApp Image 2024-06-23 at 2.32.27 AM (2).jpeg" alt="Photo 1">
+                        <img src="C:\Users\Haziq\OneDrive\Desktop\IMD318\Image\WhatsApp Image 2024-06-23 at 2.32.27 AM (3).jpeg" alt="Photo 2">
+                        <img src="C:\Users\Haziq\OneDrive\Desktop\IMD318\Image\WhatsApp Image 2024-06-23 at 2.32.28 AM (1).jpeg" alt="Photo 3">
+                        <img src="C:\Users\Haziq\OneDrive\Desktop\IMD318\Image\WhatsApp Image 2024-06-23 at 2.32.28 AM.jpeg" alt="Photo 4">
+                        <img src="C:\Users\Haziq\OneDrive\Desktop\IMD318\Image\WhatsApp Image 2024-06-23 at 2.32.27 AM (4).jpeg" alt="Photo 5">
+                    </div>
+                </div>
+            </div>
+            <section id="audio">
+                <audio controls>
+                    <source src="C:\Users\Haziq\OneDrive\Desktop\IMD318\Audio\øneheart x reidenshi - snowfall.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <i class="fas fa-phone-alt"></i> Phone: <a href="tel:+60196554591">+6019 6554 591</a>
+        </p>
+        <p>
+            <i class="fas fa-envelope"></i> Email: <a href="mailto:haziqhazz030409@gmail.com">haziqhazz030409@gmail.com</a>
+        </p>
+        <p>
+            <i class="fab fa-instagram"></i> Instagram: <a href="https://www.instagram.com/haziqhazz" target="_blank">@haziqhazz</a>
+        </p>
+    </footer>
+</body>
+</html>
+
+<style>
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #262626;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; 
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #a0a0a0;
+}
+
+main {
+    flex: 1;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    animation: fadeIn 2s ease-in-out;
+    text-align: center;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text {
+    flex: 1;
+    max-width: 400px;
+}
+
+p {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.carousel {
+    flex: 1;
+    max-width: 300px;
+    overflow: hidden;
+    border: 2px solid #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+.carousel-images {
+    display: flex;
+    animation: slide 15s infinite;
+}
+
+.carousel-images img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
+    background-color: #000;
+}
+
+#audio {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #262626;
+    color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto', sans-serif; 
+}
+
+footer p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #a0a0a0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #f0f0f0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    45% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    70% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    95% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+</style>
