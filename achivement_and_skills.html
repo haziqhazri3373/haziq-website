@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievement & Skills</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Biodata</a></li>
+                <li><a href="working_experience.html">Working Experience</a></li>
+                <li><a href="passion.html">Passion</a></li>
+                <li><a href="achivement_and_skills.html">Achievement & Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Achievement & Skills</h1>
+        <img src="Image/WhatsApp Image 2024-06-23 at 2.32.27 AM.jpeg" alt="Profile Picture" class="profile-pic">
+        <div class="content">
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>C++</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>MySQL</li>
+                </ul>
+            </section>
+
+            <section class="achievements">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Completed high school while being a prefect</li>
+                    <li>Had my first working experience at the age of 19</li>
+                    <li>Maintained good relations with many people at the age of 21</li>
+                    <li>Won first place in a product review competition under UITM, competing against other branches of UITM</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            <i class="fas fa-phone-alt"></i> Phone: <a href="tel:+60196554591">+6019 6554 591</a>
+        </p>
+        <p>
+            <i class="fas fa-envelope"></i> Email: <a href="mailto:haziqhazz030409@gmail.com">haziqhazz030409@gmail.com</a>
+        </p>
+        <p>
+            <i class="fab fa-instagram"></i> Instagram: <a href="https://www.instagram.com/haziqhazz" target="_blank">@haziqhazz</a>
+        </p>
+    </footer>
+</body>
+</html>
+<style>
+    body {
+        font-family: 'Playfair Display', serif;
+        background-color: #1a1a1a;
+        color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    header {
+        background-color: #262626;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    nav ul li a {
+        color: #f0f0f0;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        color: #a0a0a0;
+    }
+
+    main {
+        flex: 1;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+        animation: fadeIn 2s ease-in-out;
+        text-align: center;
+        border-bottom: 2px solid #f0f0f0;
+        padding-bottom: 10px;
+    }
+
+    .profile-pic {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        margin-bottom: 20px;
+    }
+
+    .content {
+        max-width: 800px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .skills, .achievements {
+        margin: 20px 0;
+    }
+
+    .skills ul, .achievements ul {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+    }
+
+    .skills ul li, .achievements ul li {
+        background-color: #262626;
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        font-family: 'Roboto', sans-serif;
+    }
+
+    footer {
+        background-color: #262626;
+        color: #f0f0f0;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    footer p {
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer i {
+        margin-right: 10px;
+        font-size: 1.2em;
+    }
+
+    footer a {
+        color: #a0a0a0;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+        color: #f0f0f0;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+</style>
